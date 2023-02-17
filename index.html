@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>Project</title>
+
+       <!-- css Bundle with Popper -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+        <link href="./css/style.css" rel="stylesheet" type="text/css"/>
+        <link href="./css/mobile.css" rel="stylesheet" type="text/css"/>
+
+
+    </head>
+    <body>
+      <main>
+
+        <nav data-aos="fade-left"   data-aos-duration="2000">
+          <a href="#" class="logo">
+            <img src="img/logo.jpg" alt="logo">
+          </a>
+          <div class="nav-links">
+            <ul class="nav-menu">
+              <li><a href="#home" class="nav-link">Home</a></li>
+              <li><a href="#menu" class="nav-link">Menu</a></li>
+              <li><a href="#product" class="nav-link">Products</a></li>
+              <li><a href="#about" class="nav-link">About</a></li>
+              <li><a href="#contact-us" class="nav-link">Contact Us</a></li>
+              <li><a href="signup.html" class="nav-link">Sign Up</a></li>
+
+              <li><a href="" class="active" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Log In</a></li>
+            </ul>
+          </div>
+
+        <!-- Hamburger menu  -->
+        <div class="hamburger">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+      </nav>
+
+        <!-- Home section  -->
+        <section class="section-1" id="home">
+          <div class="container-fluid">
+            <div class="header-box">
+
+              <div class="header-content">
+                <div class="header-title" data-aos="fade-right" data-aos-duration="2000">
+                    <h3>Welcome To Coffee Bar</h3>
+                    <P class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam neque dolore laboriosam ex quae asperiores voluptate temporibus.</P>
+                      <div class="header-button">
+                        <button><a href="#">View Details</a></button>
+                      </div>
+                </div>
+
+                <div class="header-card">
+                  <div class="man-card" data-aos="flip-left" data-aos-duration="2000">
+                    <img src="img/m1.jpg">
+                    <img src="img/m1.jpg">
+                  </div>   
+                  <div class="man-card" data-aos="flip-left" data-aos-duration="2000">
+                    <img src="img/m2.jpg">
+                    <img src="img/m2.jpg">
+                  </div>   
+                  <div class="man-card" data-aos="flip-left" data-aos-duration="2000">
+                    <img src="img/m3.jpg">
+                    <img src="img/m3.jpg">
+                  </div>   
+                </div>
+                
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Home end section  -->
+
+
+        <!-- Menu section  -->
+
+        <section class="section-2" id="menu" data-aos="fade-down" data-aos-duration="2000">
+          <div class="container">
+            <div class="section-header">
+              <h3 class="section-title">Our<span>  Menu</span></h3>
+              <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit minus quasi ulla</p>
+            </div>
+
+              <div class="menu-box" data-aos="fade-up" data-aos-duration="2000">
+                <div class="card menu-card">
+                  <div class="menu-img">
+                    <img src="img/c1.jpg" class="card-img-top" alt="image">
+                  </div>
+                  <div class="card-body">
+                    <h5 class="card-title">Coffee</h5>
+                    <p class="card-text text-center opacity-75">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum dolorum sit, delectus</p>
+                    <del>$ 100</del>
+                    <span class="discount">$ 70</span>
+                    <div class="star-logo">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star-half-stroke"></i>
+                      <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                    <a href="#" class="button">Add To Cart</a>
+                  </div>
+                </div>
+              
+            
+                <div class="card menu-card">
+                  <div class="menu-img">
+                    <img src="img/c2.jpg" class="card-img-top" alt="image">
+                  </div>
+                  <div class="card-body">
+                    <h5 class="card-title">Coffee</h5>
+                    <p class="card-text text-center opacity-75">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum dolorum sit, delectus</p>
+                    <del>$ 150</del>
+                    <span class="discount">$ 120</span>
+                    <div class="star-logo">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                    <a href="#" class="button">Add To Cart</a>
+                  </div>
+               
+              </div>
+
+                <div class="card menu-card">
+                  <div class="menu-img">
+                    <img src="img/c3.jpg" class="card-img-top" alt="image">
+                  </div>
+                  <div class="card-body">
+                    <h5 class="card-title">Coffee</h5>
+                    <p class="card-text text-center opacity-75">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum dolorum sit, delectus</p>
+                    <del>$ 200</del>
+                    <span class="discount">$ 150</span>
+                    <div class="star-logo">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                    </div>
+                    <a href="#" class="button">Add To Cart</a>
+                  </div>
+                </div>
+              </div>
+
+
+          </div>
+        </section>
+        <!-- End Menu section  -->
+
+        <!-- Product section  -->
+
+        <section class="section-3" id="product" data-aos="fade-down" data-aos-duration="2000">
+          <div class="container">
+            <div class="section-header">
+              <h3 class="section-title">Our<span>  Product</span></h3>
+              <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit minus quasi ulla</p>
+            </div>
+
+
+              <div class="product-box-one" data-aos="fade-up" data-aos-duration="2000">    
+                <div class="card product-card">
+                  <div class="circle">
+                    <span>30% off</span>
+                  </div>
+                  <img src="img/product-1.png" class="card-img-top" alt="product-image">
+                  <div class="card-body">
+                    <h5 class="card-title text-center fs-4 fw-bold">Card title</h5>
+                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+                  </div>
+                  
+                  <button class="pro-view">
+                    <a href="viewdetail.html" class="view-btn">View Details</a>
+                  </button>
+          
+                </div>
+              
+              
+                <div class="card product-card">
+                  <div class="circle">
+                    <span>30% off</span>
+                  </div>
+                  <img src="img/product-2.png" class="card-img-top" alt="product-image">
+                  <div class="card-body">
+                    <h5 class="card-title text-center fs-4 fw-bold">Card title</h5>
+                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+                  </div>
+                  <button class="pro-view">
+                    <a href="viewdetail.html" class="view-btn">View Details</a>
+                  </button>
+                </div>
+                            
+                <div class="card product-card">
+                  <div class="circle">
+                    <span>30% off</span>
+                  </div>
+                  <img src="img/product-3.png" class="card-img-top" alt="product-image">
+                  <div class="card-body">
+                    <h5 class="card-title text-center fs-4 fw-bold">Card title</h5>
+                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+                  </div>
+                  <button class="pro-view">
+                    <a href="viewdetail.html" class="view-btn">View Details</a>
+                  </button>
+                </div>
+              </div>
+            </div>
+              
+            <div class="container">
+              <div class="product-box-two" data-aos="fade-up" data-aos-duration="2000">
+                  <div class="card product-card">
+                    <div class="circle">
+                      <span>20% off</span>
+                    </div>
+                    <img src="img/product-4.png" class="card-img-top" alt="product-image">
+                    <div class="card-body">
+                      <h5 class="card-title text-center fs-4 fw-bold">Card title</h5>
+                      <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+                    </div>
+                    <button class="pro-view">
+                      <a href="viewdetail.html" class="view-btn">View Details</a>
+                    </button>
+                  </div>
+                
+                  <div class="card product-card">
+                    <div class="circle">
+                      <span>20% off</span>
+                    </div>
+                    <img src="img/product-5.png" class="card-img-top" alt="product-image">
+                    <div class="card-body">
+                      <h5 class="card-title text-center fs-4 fw-bold">Card title</h5>
+                      <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+                    </div>
+                    <button class="pro-view">
+                      <a href="viewdetail.html" class="view-btn">View Details</a>
+                    </button>
+                  </div>
+                
+                
+                  <div class="card product-card">
+                    <div class="circle">
+                      <span>20% off</span>
+                    </div>
+                    <img src="img/product-6.png" class="card-img-top" alt="product-image">
+                    <div class="card-body">
+                      <h5 class="card-title text-center fs-4 fw-bold">Card title</h5>
+                      <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+                    </div>
+                    <button class="pro-view">
+                      <a href="viewdetail.html" class="view-btn">View Details</a>
+                    </button>
+                  </div>
+                
+              </div>
+
+            </div>
+        </section>
+
+        <!-- End Product section  -->
+
+
+        <!-- About Section  -->
+
+        <section class="section-4" id="about">
+          <div class="container">
+            <div class="section-header">
+              <h3 class="section-title">Our<span>  About</span></h3>
+              <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit minus quasi ulla</p>
+            </div>
+
+            <div class="counter-up">
+              <div class="content">
+                <div class="box">
+                  <div class="icon"><i class="fas fa-history"></i></div>
+                  <div class="counter">724</div>
+                  <div class="text">Working Hours</div>
+                </div>
+                <div class="box">
+                  <div class="icon"><i class="fa-solid fa-bars"></i></div>
+                  <div class="counter">508</div>
+                  <div class="text">Menu Items</div>
+                </div>
+                <div class="box">
+                  <div class="icon"><i class="fas fa-users"></i></div>
+                  <div class="counter">436</div>
+                  <div class="text">Happy Clients</div>
+                </div>
+                <div class="box">
+                  <div class="icon"><i class="fas fa-award"></i></div>
+                  <div class="counter">120</div>
+                  <div class="text">Awards Received</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        
+        <!-- End About Section  -->
+
+
+        
+          <!-- Contact Us Section  -->
+
+          <section class="section-5" id="contact-us">
+            <div class="container">
+              <div class="section-header" data-aos="fade-up" data-aos-duration="2000">
+                <h3 class="section-title">Contact<span>  Us</span></h3>
+                <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit minus quasi ulla</p>
+              </div>
+
+              <div class="contact-box" data-aos="fade-up"
+              data-aos-anchor-placement="top-center">
+                <div class="left">
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d29603.974164031242!2d96.0866108!3d21.9538893!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30cb6d421b18cc8b%3A0x26c268c8986341ad!2sThe%20Regent%20Coffee%20Club!5e0!3m2!1sen!2smm!4v1664606332428!5m2!1sen!2smm" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                <div class="right">
+                  <h2>Contact Us</h2>
+                  <input type="text" class="field" placeholder="Your Name">
+                  <input type="text" class="field" placeholder="Your Email">
+                  <input type="text" class="field" placeholder="Phone">
+                  <textarea placeholder="Message" class="field"></textarea>
+                  <button class="btn">Send</button>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <!-- End Contact Us Section  -->
+
+
+           <!-- Footer Section  -->
+
+           <footer class="footer-distributed" data-aos="fade-down" data-aos-duration="2000">
+
+            <div class="footer-left">
+                <h3><span>About</span></h3>
+    
+                <p class="footer-links">
+                    <a href="#">Services</a>
+                    |
+                    <a href="#">Customer</a>
+                    |
+                    <a href="#">Team</a>
+                    |
+                    <a href="#">Work</a>
+                    
+
+                </p>
+    
+                <p class="footer-company-name">Copyright © 2022 <strong>Developed By Ye Yint Aung </strong>| All rights reserved</p>
+            </div>
+    
+            <div class="footer-center">
+                <div>
+                    <i class="fa fa-map-marker"></i>
+                    <p><span>Location</span>
+                        Mandalay</p>
+                </div>
+    
+                <div>
+                    <i class="fa fa-phone"></i>
+                    <p>+959 123456789</p>
+                </div>
+                <div>
+                    <i class="fa fa-envelope"></i>
+                    <p><a href="mailto:sagar00001.co@gmail.com">coffee@gmail.com</a></p>
+                </div>
+            </div>
+            <div class="footer-right">
+                <p class="footer-company-about">
+                    <span>About the company</span>
+                    <strong>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate eligendi dicta, dignissimos ipsam saepe labore adipisci natus amet quidem neque alias perspiciatis. Nihil optio possimus explicabo, quibusdam fugiat ex officiis.</strong>
+                <div class="footer-icons">
+                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                </div>
+            </div>
+        </footer>
+
+          <!-- End Footer Section  -->
+          
+        <!-- Modal section  -->
+        <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+
+              <div class="modal-header">
+                <h5 class="modal-title" id="staticBackdropLabel">Login Form</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+
+              <div class="modal-body">
+                <form action="" method="">
+                <div class="form">
+                  <div class="input-box">
+                    <input type="text" placeholder="Name" required>
+                  </div>
+                  <div class="input-box">
+                    <input type="text" placeholder="Email" required>
+                  </div>
+                  <div class="input-box">
+                    <input type="password" placeholder="Password" required>
+                  </div>
+                    <input type="submit" value="Log In" class="btn">
+                </div>
+              </form>
+                <div class="form-problem">
+                    <a href="#">Forgot password?</a>
+                </div>
+               </div>
+
+              </div>
+            </div>
+          </div>
+
+          <!-- End Modal section  -->
+        
+          </main>
+
+
+        
+       <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    
+    <script>
+      AOS.init();
+
+      $(document).ready(function(){
+          $('.counter').counterUp({
+            delay: 10,
+            time: 1200
+          });
+        });
+            
+      window.addEventListener("scroll", function(){
+        var header = document.querySelector("nav");
+        header.classList.toggle("sticky", window.scrollY > 70);
+      });
+
+            const hamburger = document.querySelector(".hamburger");
+            const navMenu = document.querySelector(".nav-links");
+            const navLink= document.querySelectorAll(".nav-link");
+
+            hamburger.addEventListener("click",mobileMenu);
+
+            navLink.forEach(n => n.addEventListener("click", closeMenu));
+
+            function mobileMenu(){
+              hamburger.classList.toggle("active");
+              navMenu.classList.toggle("active");
+            }
+
+            function closeMenu(){
+              hamburger.classList.remove("active");
+              navMenu.classList.remove("active");
+            }
+
+    </script>
+    </body>
+</html>

@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(219, 217, 217);
+}
+
+.details-box{
+    width: 900px;
+    height: 400px;
+    background-color: #FFD372;
+    margin: 10% auto;
+    display: flex;
+}
+
+.details-box .image{
+    width: 1000px;
+    height: 400px;
+}
+
+.image img{
+    width: 100%;
+    height: 100%;
+}
+
+.details-box .abouts{
+    width: 100%;
+    padding: 10px 20px;
+}
+
+.abouts .title{
+    font-size: 2.3rem;
+    font-weight: 900;
+    text-shadow: 1px 1px 2px #000;
+}
+
+.abouts .text{
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.abouts .per{
+    margin: 10px;
+}
+
+.per .price{
+    font-size: 1.1rem;
+    margin: 0 5px 0 0;
+}
+
+.per .discount{
+    font-size: 1.4rem;
+    font-weight: 900;
+}
+.wrapper{
+    height: 40px;
+    width: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #FFF;
+    border-radius: 12px;
+    margin: 0 10px;
+    box-shadow: 0 3px 5px rgba(0,0,0,0.2);
+  }
+
+  .wrapper span{
+    width: 100%;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 600;
+    cursor: pointer;
+    user-select: none;
+  }
+
+  .wrapper span.num{
+    font-size: 20px;
+    border-right: 2px solid rgba(0,0,0,0.2);
+    border-left: 2px solid rgba(0,0,0,0.2);
+    pointer-events: none;
+  }
+  
+  .socials{
+    display: flex;
+    margin: 20px 0;
+  }
+
+  .socials button{
+    width: 100px;
+    height: 40px;
+    margin: 10px;
+    background-color: #fff;
+  }
+
+  .socials button a{
+    text-decoration: none;
+    color: #000;
+    font-size: 1.1rem;
+  }
+
+  .socials .like{
+    width: 50px;
+    height: 40px;
+    border: 2px solid #000;
+    margin: 10px 0;
+    color: rgb(255, 255, 255);
+  }
+
+  .like i{
+    font-size: 2rem;
+    margin: 1px 7px;
+  }
+
+  .heart i.fa-heart{
+    color: #000;
+  }
+
+
+  
+@media screen and (max-width: 820px){
+  .details-box{
+    width: 700px;
+    height: auto;
+    margin: 50px 0;
+    display: block;
+  }
+
+  .details-box .image{
+    width: 100%;
+}
+}
+
+
+@media screen and (max-width: 768px){
+  .details-box{
+    width: 500px;
+    height: auto;
+    margin: 70px auto;
+    display: block;
+  }
+
+  .details-box .image{
+    width: 100%;
+}
+}
+
+@media screen and (max-width: 514px){
+  .details-box{
+    width: 300px;
+    height: auto;
+    margin: 70px auto;
+    display: block;
+  }
+
+  .details-box .image{
+    width: 100%;
+    height: 250px;
+}
+}
